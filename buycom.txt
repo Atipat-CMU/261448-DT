@@ -1,15 +1,15 @@
-age	income	student	credit_rating	buys_computer
-<=30	high	s_no	fair	No
-<=30	high	s_no	excellent	No
-31-40	high	s_no	fair	Yes
->=40	medium	s_no	fair	Yes
->=40	low	s_yes	fair	Yes
->=40	low	s_yes	excellent	No
-31-40	low	s_yes	excellent	Yes
-<=30	medium	s_no	fair	No
-<=30	low	s_yes	fair	Yes
->=40	medium	s_yes	fair	Yes
-<=30	medium	s_yes	excellent	Yes
-31-40	medium	s_no	excellent	Yes
-31-40	high	s_yes	fair	Yes
->=40	medium	s_no	excellent	No
+age	income	student	credit_rating	buys_computer	test
+<=30	high	no	fair	No	1
+<=30	high	no	excellent	No	1
+31-40	high	no	fair	Yes	0
+>=40	medium	no	fair	Yes	1
+>=40	low	yes	fair	Yes	0
+>=40	low	yes	excellent	No	0
+31-40	low	yes	excellent	Yes	0
+<=30	medium	no	fair	No	0
+<=30	low	yes	fair	Yes	0
+>=40	medium	yes	fair	Yes	0
+<=30	medium	yes	excellent	Yes	0
+31-40	medium	no	excellent	Yes	0
+31-40	high	yes	fair	Yes	0
+>=40	medium	no	excellent	No	0
